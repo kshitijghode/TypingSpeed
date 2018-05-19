@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.masthead h1 {
+    text-align: center;
+}
+
+.intro {
+    color: black;
+    }
+
+
+.intro p,
+.test-area {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+
+.test-wrapper {
+    border: 10px solid grey;
+    border-radius: 10px;
+}
+
+#origin-text {
+    margin: 5px;
+    padding: 5px;
+    background-color: #ededed;
+}
+
+#origin-text p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.test-wrapper {
+    height: 200%;
+    display: flex;
+}
+
+.test-wrapper textarea {
+    flex: 1;
+}
+
+.meta {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.timer {
+    font-size: 30px;
+    font-weight: bold;
+}
+.wpm {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#reset {
+    padding: 5px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #E95D0F;
+    background: white ;
+    border: 10px solid #E95D0F;
+}
+
+#reset:hover {
+    color: white;
+    background-color: #E95D0F;
+}
